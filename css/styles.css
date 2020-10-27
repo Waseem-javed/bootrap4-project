@@ -1,0 +1,31 @@
+/* extra colors */
+.text-orangered {
+  color: #ff6347;
+}
+.bg-orangered {
+  background-color: #ff6347;
+}
+.text-slate-blue {
+  color: #787cb5;
+}
+.bg-slate-blue {
+  background-color: #787cb5;
+}
+a {
+  text-decoration: none;
+}
+/* extra colors end */
+
+/* hover on links */
+.nav-link {
+  border:1px solid transparent;
+  border-bottom: 4px solid transparent;
+  transition: 0.3s !important;
+  margin: 0px 4px 0px 4px;
+}
+.nav-link:hover{
+    border:1px solid #FFF;
+    border-bottom: 4px solid white;
+    border-radius: 6px 6px 0px 0px;
+}
+/* hover on links end */
